@@ -33,10 +33,14 @@
   },
   {
     "content": "Phase 2: All user stories covered (home, services, booking, mobile sticky bar)",
-    "status": "in_progress"
+    "status": "completed"
   },
   {
     "content": "Phase 2: End-to-end testing using testing_agent_v3",
-    "status": "pending"
+    "status": "completed"
+  },
+  {
+    "content": "Phase 2: Fix minor flight_number nullification on backend",
+    "status": "completed"
   }
 ]

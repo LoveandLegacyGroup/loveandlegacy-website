@@ -152,7 +152,11 @@ async def list_services():
 
 @api_router.post("/bookings", response_model=Booking, status_code=201)
 async def create_booking(payload: BookingCreate, background: BackgroundTasks):
-    booking = Booking(**payload.model_dump())
+    data = payload.model_dump()
+    # Data consistency: only Airport Transfer carries a flight number
+    if data.get("service_type") != "Airport Transfer":
+        data["flight_number"] = None
+    booking = Booking(**data)
     doc = booking.model_dump()
     # store datetime as ISO string for stability
     doc["created_at"] = doc["created_at"].isoformat() if isinstance(doc["created_at"], datetime) else doc["created_at"]

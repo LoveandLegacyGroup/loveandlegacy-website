@@ -48,7 +48,7 @@ export default function BookPage() {
             <div className="ll-rule my-7" />
             <p className="text-xs text-[var(--ll-champagne)] tracking-[0.18em] uppercase">Available 24 / 7</p>
             <a href={`tel:${BRAND.phoneTel}`} className="mt-2 inline-flex items-center gap-2 font-serif text-2xl text-[var(--ll-gold)]"><Phone size={18}/> {BRAND.phone}</a>
-            <a href={`mailto:${BRAND.email}?subject=Booking%20Inquiry`} className="mt-4 block text-xs text-white/65 hover:text-[var(--ll-gold)]">Or email Dontay directly</a>
+            <a href={`mailto:${BRAND.bookingEmail}?subject=Booking%20Inquiry`} className="mt-4 block text-xs text-white/65 hover:text-[var(--ll-gold)]">Or email reservations directly</a>
           </aside>
         </div>
       </section>

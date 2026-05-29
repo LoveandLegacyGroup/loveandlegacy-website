@@ -11,7 +11,7 @@ const SECTIONS = [
   { title: 'How We Use Information', body: 'We use information solely to coordinate your transportation request, respond to your inquiry, and improve our services. We never sell client data.' },
   { title: 'Discretion', body: 'Client identities, destinations, and schedules are confidential. Internal access is restricted to team members responsible for executing your booking.' },
   { title: 'Cookies', body: 'We use minimal cookies for essential site functionality and anonymous analytics. You may disable cookies via your browser settings.' },
-  { title: 'Contact', body: 'Privacy questions: hello@loveandlegacy.transport.' },
+  { title: 'Contact', body: 'Privacy questions: info@loveandlegacy.group.' },
 ];
 
 export default function PrivacyPage() {

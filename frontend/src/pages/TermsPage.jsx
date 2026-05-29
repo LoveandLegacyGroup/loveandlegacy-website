@@ -12,7 +12,7 @@ const SECTIONS = [
   { title: 'Cancellations', body: 'Standard cancellations are accepted up to 4 hours prior to scheduled pickup. Late cancellations may be subject to a service fee.' },
   { title: 'Discretion', body: 'Discretion is core to our service. Both parties agree to respect confidentiality of all engagement details.' },
   { title: 'Limitation of Liability', body: 'Love & Legacy maintains comprehensive insurance and licensing required to operate in Georgia. Service is subject to applicable laws.' },
-  { title: 'Contact', body: 'Questions regarding these terms: hello@loveandlegacy.transport.' },
+  { title: 'Contact', body: 'Questions regarding these terms: info@loveandlegacy.group.' },
 ];
 
 export default function TermsPage() {
